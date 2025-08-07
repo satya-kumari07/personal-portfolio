@@ -163,3 +163,35 @@ span{
     margin-bottom: 3rem;
     margin-top:2rem;
 }
+.services h2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    gap:4rem;
+    justify-content: center;
+    align-items: center;
+}
+.services-box{
+    background: var(--second-bg-color);
+    padding: 4rem;
+    border-radius: 23px;
+    border:2px solid var(--bg-color);
+    transition: .5s ease;
+    text-align: center;
+}
+.services-box h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.services-box p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.services-container .services-box:hover{
+    box-shadow: 0 0 1rem white;
+    /* border-color:var(--main-color); */
+    transform: scale(1.02);
+}
