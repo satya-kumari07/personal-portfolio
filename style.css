@@ -29,14 +29,15 @@ body{
 header{
     position:fixed;
     top: 0;
-    height: 8rem;
+    /* height: 8rem; */
     left:0;
     width:100vw;
     background: var(--bg-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     z-index: 100;
 }
 .logo{
@@ -133,4 +134,32 @@ span{
 }
 .btn:hover{
     box-shadow:none;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    background-color: var(--second-bg-color);
+}
+.about-img img{
+    width: 25vw;
+    border: 3px solid var(--main-color);
+    border-radius: 49%;
+}
+.heading{
+    text-align:center;
+    font-size:4.5rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height:2;
+}
+.about-content h3{
+    font-size: 2.6rem;
+}
+.about-content p{
+    font-size:1.5rem;
+    margin-bottom: 3rem;
+    margin-top:2rem;
 }
