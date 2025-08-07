@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio satya</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-nav">
-        <div class="kevin">
-            <h1 class="k">S</h1>
-            <h1 class="evin">atya.</h1>
-        </div>
-        <div class="nav">
-            <a href="#" class="home nav-link">Home</a>
-            <a href="#" class="nav-link">About</a>
-            <a href="#" class="nav-link">Services</a>
-            <a href="#" class="nav-link">Portfolio</a>
-            <a href="#" class="nav-link">Contact</a>
-        </div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-        <div class="body">
-            <h3 class="para1 line">Web Developer</h3>
-            <div class="mid line">
-                <h1 class="para2"><pre>Hi,I'm </pre></h1>
-                <h1 class="k">Satya</h1>
+        <i class="fa-solid fa-bars" id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+<!--home section design-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Satya Kumari</h1>
+            <h3>And I'm <span>Web Developer</span></h3>
+            <p>I design and build beautiful, responsive websites using modern web technologies. I love turning ideas into reality through clean and efficient code.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <h1 class="para3 line">Kumari from Jharkhand</h1>
+            <a href="#" class="btn">Download CV</a>
         </div>
-    </div>
+    
+        <div class="home-img">
+            <img src="satya2.png" alt="satya">
+         </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
